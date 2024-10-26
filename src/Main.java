@@ -60,7 +60,7 @@ public class Main {
         for (int i=1; i<=10; i+=1){
             int a=i*2;
             System.out.println("2 x "+i+ " = " + a);}
-
+// End
     }
 }
 
