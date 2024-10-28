@@ -42,16 +42,16 @@ public class Main {
         System.out.println("Task 8");
         int salary=29000;
         int total=0;
-        for (int i=0; i<=12; i++) {
+        for (int i=0; i<12; i++) {
             total=total+salary;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
         }
         // Task 9
         System.out.println("Task 9");
         int total1=0;
-        int percent=12;
-        for (int i=0; i<=12; i++) {
-            total1=total1+total1/100*percent/12+salary;
+        int yearPercent=12;
+        for (int i=0; i<12; i++) {
+            total1=total1+total1/100*yearPercent/12+salary;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total1 + " рублей.");
         }
 
